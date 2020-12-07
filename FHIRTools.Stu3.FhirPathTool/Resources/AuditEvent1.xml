@@ -1,0 +1,115 @@
+<AuditEvent xmlns="http://hl7.org/fhir">
+    <id value="6d1c028f-e5ce-42d8-9773-baf166356b62" />
+    <meta>
+      <versionId value="1" />
+      <lastUpdated value="2018-09-19T01:29:58.352+00:00" />
+      <tag>
+        <system value="https://pyrohealth.net/fhir/CodeSystem/pyrofhirserver" />
+        <code value="Protected" />
+        <display value="Protected Resource" />
+      </tag>
+    </meta>
+    <text>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <div>
+          <table>
+            <tr>
+              <td>
+                <span>
+                  <b>Time: </b>
+                </span>
+              </td>
+              <td>
+                <span>9/19/2018 1:29:57 AM (0.432 sec)</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>
+                  <b>PUT: </b>
+                </span>
+              </td>
+              <td>
+                <span>/Patient/IHIStatusExample</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>
+                  <b>BaseUri: </b>
+                </span>
+              </td>
+              <td>
+                <span>https://stu3.test.pyrohealth.net/fhir</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>
+                  <b>From: </b>
+                </span>
+              </td>
+              <td>
+                <span>61.245.132.232</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>
+                  <b>User: </b>
+                </span>
+              </td>
+              <td>
+                <span>(anonymous)</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </text>
+    <extension url="http://pyrohealth.net/extention/AuditEvent/TimeTaken">
+      <valueDecimal value="432.3886" />
+    </extension>
+    <type>
+      <system value="http://hl7.org/fhir/security-event-type" />
+      <code value="rest" />
+      <display value="Restful Operation" />
+    </type>
+    <subtype>
+      <system value="http://hl7.org/fhir/restful-interaction" />
+      <code value="update" />
+      <display value="update" />
+    </subtype>
+    <action value="U" />
+    <recorded value="2018-09-19T01:29:58.352+00:00" />
+    <outcome value="0" />
+    <agent>
+      <requestor value="true" />
+      <network>
+        <address value="61.245.132.232" />
+        <type value="2" />
+      </network>
+    </agent>
+    <source>
+      <site value="Cloud" />
+      <identifier>
+        <value value="https://stu3.test.pyrohealth.net" />
+      </identifier>
+      <type>
+        <system value="http://hl7.org/fhir/ValueSet/audit-source-type" />
+        <code value="3" />
+        <display value="Web Server" />
+      </type>
+    </source>
+    <entity>
+      <reference>
+        <reference value="Patient/IHIStatusExample" />
+      </reference>
+      <type>
+        <system value="http://hl7.org/fhir/object-type" />
+        <code value="1" />
+        <display value="Person" />
+      </type>
+      <name value="https://stu3.test.pyrohealth.net/fhir/Patient/IHIStatusExample" />
+    </entity>
+  </AuditEvent>

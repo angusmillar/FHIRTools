@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.Stu3.SearchParametersInspector", "FHIRTools.Stu3.SearchParametersInspector\FHIRTools.Stu3.SearchParametersInspector.csproj", "{A0FF67A9-6979-4DC8-8A41-E1295B8986A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.Stu3.Common", "FHIRTools.Stu3.Common\FHIRTools.Stu3.Common.csproj", "{8399A0A7-8577-4879-B471-B11BE94F954A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.R4.Common", "FHIRTools.R4.Common\FHIRTools.R4.Common.csproj", "{2B2845DF-D196-47A3-B31B-232ADBDD9D9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.Stu3.TextGenerator", "FHIRTools.Stu3.TextGenerator\FHIRTools.Stu3.TextGenerator.csproj", "{A9CB8103-93A4-4C12-B94B-848AD99A3F71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.Stu3.CompartmentResourceGenerator", "FHIRTools.Stu3.CompartmentResourceGenerator\FHIRTools.Stu3.CompartmentResourceGenerator.csproj", "{4BF358DE-F06B-45D0-9656-BCB76C2FD4B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.Stu3.ResourceLoader", "FHIRTools.Stu3.ResourceLoader\FHIRTools.Stu3.ResourceLoader.csproj", "{921A2962-E42D-4058-99B0-0B40DC132B49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.R4.SearchParametersInspector", "FHIRTools.R4.SearchParametersInspector\FHIRTools.R4.SearchParametersInspector.csproj", "{5181CD79-86D5-4241-91F0-3476F04C776A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.R4.CompartmentResourceGenerator", "FHIRTools.R4.CompartmentResourceGenerator\FHIRTools.R4.CompartmentResourceGenerator.csproj", "{45CE999E-C971-427D-AD17-2C5368A2999C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.R4.FhirPathTool", "FHIRTools.R4.FhirPathTool\FHIRTools.R4.FhirPathTool.csproj", "{67A95496-C104-48A1-82D7-1C34743E6F70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.Stu3.FhirPathTool", "FHIRTools.Stu3.FhirPathTool\FHIRTools.Stu3.FhirPathTool.csproj", "{2F3D486D-15D6-43F5-BA0A-07FF923F6011}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FHIRTools.R4.DefinitionResources", "FHIRTools.R4.DefinitionResources\FHIRTools.R4.DefinitionResources.csproj", "{75387BD7-DDE0-4BEE-9A86-6812B90B4024}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FhirTools.R4.ElementTesting", "FhirTools.R4.ElementTesting\FhirTools.R4.ElementTesting.csproj", "{8713E33B-C4DA-4D16-B339-9928F9A679E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRTools.R4.Parseing", "FHIRTools.R4.Parseing\FHIRTools.R4.Parseing.csproj", "{FDE6C8D4-04D6-4B42-939A-827F7C0A3FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRTools.Stu3.AdhaProviderDirectory", "FHIRTools.Stu3.AdhaProviderDirectory\FHIRTools.Stu3.AdhaProviderDirectory.csproj", "{D46DE80D-28B8-4C9C-ADAC-32F7FC26E9C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0FF67A9-6979-4DC8-8A41-E1295B8986A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FF67A9-6979-4DC8-8A41-E1295B8986A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FF67A9-6979-4DC8-8A41-E1295B8986A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FF67A9-6979-4DC8-8A41-E1295B8986A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8399A0A7-8577-4879-B471-B11BE94F954A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8399A0A7-8577-4879-B471-B11BE94F954A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8399A0A7-8577-4879-B471-B11BE94F954A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8399A0A7-8577-4879-B471-B11BE94F954A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2845DF-D196-47A3-B31B-232ADBDD9D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2845DF-D196-47A3-B31B-232ADBDD9D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2845DF-D196-47A3-B31B-232ADBDD9D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2845DF-D196-47A3-B31B-232ADBDD9D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CB8103-93A4-4C12-B94B-848AD99A3F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CB8103-93A4-4C12-B94B-848AD99A3F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CB8103-93A4-4C12-B94B-848AD99A3F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CB8103-93A4-4C12-B94B-848AD99A3F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF358DE-F06B-45D0-9656-BCB76C2FD4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF358DE-F06B-45D0-9656-BCB76C2FD4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF358DE-F06B-45D0-9656-BCB76C2FD4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF358DE-F06B-45D0-9656-BCB76C2FD4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921A2962-E42D-4058-99B0-0B40DC132B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921A2962-E42D-4058-99B0-0B40DC132B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921A2962-E42D-4058-99B0-0B40DC132B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921A2962-E42D-4058-99B0-0B40DC132B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5181CD79-86D5-4241-91F0-3476F04C776A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5181CD79-86D5-4241-91F0-3476F04C776A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5181CD79-86D5-4241-91F0-3476F04C776A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5181CD79-86D5-4241-91F0-3476F04C776A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CE999E-C971-427D-AD17-2C5368A2999C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CE999E-C971-427D-AD17-2C5368A2999C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CE999E-C971-427D-AD17-2C5368A2999C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CE999E-C971-427D-AD17-2C5368A2999C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A95496-C104-48A1-82D7-1C34743E6F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A95496-C104-48A1-82D7-1C34743E6F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A95496-C104-48A1-82D7-1C34743E6F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A95496-C104-48A1-82D7-1C34743E6F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3D486D-15D6-43F5-BA0A-07FF923F6011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3D486D-15D6-43F5-BA0A-07FF923F6011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3D486D-15D6-43F5-BA0A-07FF923F6011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3D486D-15D6-43F5-BA0A-07FF923F6011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75387BD7-DDE0-4BEE-9A86-6812B90B4024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75387BD7-DDE0-4BEE-9A86-6812B90B4024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75387BD7-DDE0-4BEE-9A86-6812B90B4024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75387BD7-DDE0-4BEE-9A86-6812B90B4024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8713E33B-C4DA-4D16-B339-9928F9A679E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8713E33B-C4DA-4D16-B339-9928F9A679E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8713E33B-C4DA-4D16-B339-9928F9A679E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8713E33B-C4DA-4D16-B339-9928F9A679E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE6C8D4-04D6-4B42-939A-827F7C0A3FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE6C8D4-04D6-4B42-939A-827F7C0A3FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE6C8D4-04D6-4B42-939A-827F7C0A3FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE6C8D4-04D6-4B42-939A-827F7C0A3FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46DE80D-28B8-4C9C-ADAC-32F7FC26E9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46DE80D-28B8-4C9C-ADAC-32F7FC26E9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46DE80D-28B8-4C9C-ADAC-32F7FC26E9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46DE80D-28B8-4C9C-ADAC-32F7FC26E9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB73519C-D9FE-491A-A751-2B36CBA131AD}
+	EndGlobalSection
+EndGlobal

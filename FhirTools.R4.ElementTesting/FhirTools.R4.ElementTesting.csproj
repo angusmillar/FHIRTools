@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hl7.Fhir.R4" Version="1.2.0-beta2" />
+    <PackageReference Include="Hl7.Fhir.Specification.R4" Version="1.2.0-beta2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FHIRTools.R4.Common\FHIRTools.R4.Common.csproj" />
+  </ItemGroup>
+
+</Project>

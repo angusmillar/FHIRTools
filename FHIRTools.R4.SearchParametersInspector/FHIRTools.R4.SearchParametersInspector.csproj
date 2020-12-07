@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FHIRTools.R4.Common\FHIRTools.R4.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Hl7.Fhir.R4.Core">
+      <HintPath>..\..\fhir-net-api\src\Hl7.Fhir.Core\bin\Debug\net45\Hl7.Fhir.R4.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hl7.Fhir.Support">
+      <HintPath>..\..\fhir-net-api\src\Hl7.Fhir.Support\bin\Debug\net45\Hl7.Fhir.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

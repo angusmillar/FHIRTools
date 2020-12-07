@@ -1,0 +1,115 @@
+<AuditEvent xmlns="http://hl7.org/fhir">
+    <id value="fabeaf37-c2bc-4b3d-a88e-433c0b276df1" />
+    <meta>
+        <versionId value="1" />
+        <lastUpdated value="2018-09-17T15:22:31.474+08:00" />
+        <tag>
+            <system value="https://pyrohealth.net/fhir/CodeSystem/pyrofhirserver" />
+            <code value="Protected" />
+            <display value="Protected Resource" />
+        </tag>
+    </meta>
+    <text>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <span>
+                                <b>Time: </b>
+                            </span>
+                        </td>
+                        <td>
+                            <span>17/09/2018 3:22:08 PM (22.902 sec)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>
+                                <b>PUT: </b>
+                            </span>
+                        </td>
+                        <td>
+                            <span>/Patient/FCC-PAT-00001</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>
+                                <b>BaseUri: </b>
+                            </span>
+                        </td>
+                        <td>
+                            <span>http://localhost:8888/fhir</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>
+                                <b>From: </b>
+                            </span>
+                        </td>
+                        <td>
+                            <span>::1</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>
+                                <b>User: </b>
+                            </span>
+                        </td>
+                        <td>
+                            <span>(anonymous)</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </text>
+    <extension url="http://pyrohealth.net/extention/AuditEvent/TimeTaken">
+        <valueDecimal value="22901.866" />
+    </extension>
+    <type>
+        <system value="http://hl7.org/fhir/security-event-type" />
+        <code value="rest" />
+        <display value="Restful Operation" />
+    </type>
+    <subtype>
+        <system value="http://hl7.org/fhir/restful-interaction" />
+        <code value="update" />
+        <display value="update" />
+    </subtype>
+    <action value="U" />
+    <recorded value="2018-09-17T15:22:31.473+08:00" />
+    <outcome value="0" />
+    <agent>
+        <requestor value="true" />
+        <network>
+            <address value="::1" />
+            <type value="2" />
+        </network>
+    </agent>
+    <source>
+        <observer>
+            <reference value="/Pyro-Fhir-Server" />
+            <display value="Pyro Fhir Server" />
+        </observer>
+        <type>
+            <system value="http://hl7.org/fhir/ValueSet/audit-source-type" />
+            <code value="3" />
+            <display value="Web Server" />
+        </type>
+    </source>
+    <entity>
+        <what>
+            <reference value="Patient/FCC-PAT-00001" />
+        </what>
+        <type>
+            <system value="http://hl7.org/fhir/object-type" />
+            <code value="1" />
+            <display value="Person" />
+        </type>
+        <name value="http://localhost:8888/fhir/Patient/FCC-PAT-00001" />
+    </entity>
+</AuditEvent>
